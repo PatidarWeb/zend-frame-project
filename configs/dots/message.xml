@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<dots>
+		<variable option="global">
+			<pageTitle>
+				<action>
+					<compose>Compose Message</compose>
+				</action>
+			</pageTitle>
+		</variable>
+		<variable option="admin">
+			<infoMessage>
+				<messageSent>Your message was sent successfully ! </messageSent>
+			</infoMessage>
+		</variable>		
+	</dots>
+</config>

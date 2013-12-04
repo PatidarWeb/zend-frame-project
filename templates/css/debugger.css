@@ -1,0 +1,116 @@
+/* CLEARFIX CLASS */
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}
+/* End hide from IE Mac */
+* html .clearfix {height:1px;}
+
+/* END OF CLEARFIX CLASS */
+
+
+.debugger{
+	border: 0px;
+	margin: 0px;
+	font-size: 10px;
+	font-family: trebuchet ms,lucida sans unicode,sans-serif;
+	width:100%;
+}
+.debuggertable{
+	border: 0px;
+	margin: 10px 0px 10px 0px;
+	font-size: 10px;
+	font-family: trebuchet ms,lucida sans unicode,sans-serif;
+	width:100%;
+	background-color: #E2E2E2;
+	width:100%;
+	border-spacing: 1px;
+}
+.index_debugger{
+	border: 0px;
+	font-size: 11px;
+}
+.index_debugger b{
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+.index_debugger span{
+	color: #6B6B6B;
+}
+.debugger_images{
+	float: left;
+	vertical-align: middle;
+	border: 0px;
+	margin: 3px 5px 3px 0px;
+}
+
+.debug_table{
+	border: 0px;
+	font-size: 11px;
+	width:100%;
+}
+
+.debuggertable th{
+	background-color: #E2E2E2;
+	border: 1px solid #FFFFFF;
+	padding: 3px 0px 3px 3px;
+}
+
+.debuggertable td{
+	padding: 3px 0px 3px 3px;
+}
+
+.debugger_1 {
+	background-color: #FFFFFF;
+}
+
+.debugger_2 {
+	background-color: #F7F7F7;
+	border: 1px solid #FFFFFF;
+}
+
+.debugger_1_params {
+	background-color: #FFFFFF;
+}
+
+.debugger_2_params {
+	background-color: #F7F7F7;
+	border: 1px solid #FFFFFF;
+}
+
+.details_debugger_db{
+	cursor: pointer;
+}
+
+.debugger_db{
+	float: left;
+	margin-right: 3px;
+	background-color: #ffffff;
+	border: 1px solid #CFCFCF;
+	width: 250px;
+	padding: 6px 4px 6px 4px;
+	height: 21px;
+	line-height: 21px;
+}
+
+.version_zf, .version_php{
+	float: right;
+	margin-left: 15px;
+	line-height: 21px;
+}
+
+.total_time, .memory_usage, .debugger_db, .details_debugger_db{
+	float: left;
+	margin-right: 15px;
+	line-height: 21px;
+}
+
+.db_debug_rows{
+	clear: both;
+}

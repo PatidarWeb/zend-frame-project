@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<dots>
+		<variable option="global">
+			<pageTitle>
+				<action>
+					<list>List Translation</list>
+					<add>Add Translation</add>
+					<update>Update Translation</update>
+					<delete>Delete Translation</delete>
+				</action>
+			</pageTitle>
+			<validate>
+				<details>
+					<lengthMin>1</lengthMin>
+					<lengthMax>255</lengthMax>
+				</details>
+			</validate>	
+		</variable>
+		<variable option="admin">
+			<infoMessage>
+				<translationAdd>Translation created ! </translationAdd>
+				<translationUpdate>Translation updated ! </translationUpdate>
+				<translationDelete>Translation was deleted ! </translationDelete>
+				<notranslationDelete>No translation was deleted ! </notranslationDelete>
+				<translationExists>Original transilation string already exists ! </translationExists>
+			</infoMessage>
+		</variable>		
+	</dots>
+</config>

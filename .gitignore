@@ -1,0 +1,9 @@
+INSTALL.txt
+LICENSE.txt
+README.txt
+configs/application.ini
+demos/
+extras/documentation
+Console/
+nbproject/
+cache/

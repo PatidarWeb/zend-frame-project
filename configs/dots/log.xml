@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <dots>
+        <variable option="global">
+            <pageTitle>
+                <action>
+                    <list>View Log</list>
+                    <delete>Delete Log</delete>
+                </action>
+            </pageTitle>
+            <validate>
+                <title>
+                    <lengthMin>1</lengthMin>
+                    <lengthMax>255</lengthMax>
+                </title>
+                <path>
+                    <lengthMin>3</lengthMin>
+                    <lengthMax>20</lengthMax>
+                </path>
+                <alias>
+                    <lengthMin>1</lengthMin>
+                    <lengthMax>255</lengthMax>
+                </alias>
+            </validate>	
+        </variable>
+        <variable option="admin">
+            <errorMessage>			
+                <passwordTwice>You didn't enter the same password twice. Please re-enter it again</passwordTwice>
+                <userExists> already exists ! </userExists>	
+                <trickUserError>Why are you so smart ? &lt;/br&gt; Don't play with the fire !</trickUserError>		
+                <emailNotSent>Password could not be sent to user </emailNotSent>	
+            </errorMessage>
+            <infoMessage>
+                <menuAdd>Log created ! </menuAdd>
+                <menuUpdate>Log updated ! </menuUpdate>
+                <menuDelete>Log was deleted ! </menuDelete>
+                <noLogDelete>No menu was deleted ! </noLogDelete>
+                <emailSent>Password was sent to user </emailSent>
+                <emailNotFound> was not found in our records !</emailNotFound>
+            </infoMessage>
+        </variable>
+    </dots>
+</config>

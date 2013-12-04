@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menus>	
+    <config>	
+        <menu>
+            <id>1</id>
+            <type>horizontal</type>
+            <display>1</display>
+            <item>
+                <title>Page</title>
+                <link>page/home/</link>
+                <description>Manage Page</description>
+                <subItems>			
+                    <subItem>
+                        <title>Home</title>
+                        <link>page/home/</link>
+                        <description>Home Page</description>
+                    </subItem>						
+                    <subItem>
+                        <title>About</title>
+                        <link>page/about/</link>
+                        <description>About page</description>
+                    </subItem>
+                    <subItem>
+                        <title>Who we are</title>
+                        <link>page/who-we-are/</link>
+                        <description>Who we are page</description>
+                    </subItem>
+                    <subItem>
+                        <title>Coding Standard</title>
+                        <link>page/coding-standard/</link>
+                        <description>Coding standard page</description>
+                    </subItem>
+                    <subItem>
+                        <title>My Account</title>
+                        <link>admin/account/</link>
+                        <description>Admin user account</description>
+                    </subItem>			
+                    <subItem>
+                        <title>Logins</title>
+                        <link>admin/logins/</link>
+                        <description>Admin logins</description>
+                    </subItem>
+                </subItems>
+            </item>
+        </menu>
+    </config>
+</menus>
